@@ -85,6 +85,8 @@ pi_tuple = (3,1,4,1,5,9)  # 3.14159
 new_tuple = list(pi_tuple)  # tuple -> list
 new_list = tuple(pi_tuple)  # list -> tuple
 
+print('\n'*5)  # Printing 5 newlines
+
 ## PART THREE: END
 ########################################################################################################################
 ## PART FOUR: START
@@ -106,3 +108,32 @@ print(something_something.get("Us"))
 
 print(something_something.keys())  # Referring to all keys
 print(something_something.values())  # Referring to all values
+
+print('\n'*5)  # Printing 5 newlines
+
+## PART FOUR: END
+########################################################################################################################
+## PART FIVE: START
+
+age = 21
+
+if age > 16:
+    print("You're allowed in")
+else:
+    print("You're to young")
+
+if age >= 21:
+    print("Okay")
+elif age < 21 and age >= 16:
+    print("Less okay")
+else:
+    print("wtf are doing you young mate?")
+
+if ((age >=1) and (age <= 18)):
+    print("You get a birthday")
+elif (age == 21) or (age >=65):
+    print("Here, have a birthday")
+elif not(age==30):
+    print("You don't get a birthday")
+else:
+    print("You get a birthday party yeah")
