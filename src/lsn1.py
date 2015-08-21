@@ -137,3 +137,28 @@ elif not(age==30):
     print("You don't get a birthday")
 else:
     print("You get a birthday party yeah")
+
+## PART FIVE: END
+########################################################################################################################
+## PART SIX: START
+
+for x in range(0, 10):
+    print(x, ' ', end="")
+
+print ('\n')
+
+for y in grocery_list:
+    print(y)
+
+print ('\n')
+
+for x in [2,4,6,8,10]:
+    print(x)
+
+print ('\n')
+
+num_list = [[1,2,3],[10,20,30],[100,200,300]]
+
+for x in range(0,3):
+    for y in range(0,3):
+        print(num_list[x][y])
