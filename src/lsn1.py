@@ -5,7 +5,7 @@ import sys
 import os
 
 ########################################################################################################################
-## PART ONE: START
+# PART ONE: START
 
 print("Hello world")  # Print with "()"
 
@@ -30,9 +30,9 @@ print("newlines")
 
 print('\n'*5)  # Printing 5 newlines
 
-## PART ONE: END
+# PART ONE: END
 ########################################################################################################################
-## PART TWO: START
+# PART TWO: START
 
 grocery_list = ["Juice", "Tomatoes", "Potatoes", "Bananas"]  # list
 
@@ -75,11 +75,11 @@ print(min(to_do_list2))  # First element
 
 print('\n'*5)  # Printing 5 newlines
 
-## PART TWO: END
+# PART TWO: END
 ########################################################################################################################
-## PART THREE: START
+# PART THREE: START
 
-pi_tuple = (3,1,4,1,5,9)  # 3.14159
+pi_tuple = (3, 1, 4, 1, 5, 9)  # 3.14159
 # Can't be changed
 
 new_tuple = list(pi_tuple)  # tuple -> list
@@ -87,9 +87,9 @@ new_list = tuple(pi_tuple)  # list -> tuple
 
 print('\n'*5)  # Printing 5 newlines
 
-## PART THREE: END
+# PART THREE: END
 ########################################################################################################################
-## PART FOUR: START
+# PART FOUR: START
 
 something_something = {"Ur": "Balls?",
                        "My": "Peanut butter",
@@ -111,9 +111,9 @@ print(something_something.values())  # Referring to all values
 
 print('\n'*5)  # Printing 5 newlines
 
-## PART FOUR: END
+# PART FOUR: END
 ########################################################################################################################
-## PART FIVE: START
+# PART FIVE: START
 
 age = 21
 
@@ -129,18 +129,18 @@ elif age < 21 and age >= 16:
 else:
     print("wtf are doing you young mate?")
 
-if ((age >=1) and (age <= 18)):
+if age >=1 and age <= 18:
     print("You get a birthday")
-elif (age == 21) or (age >=65):
+elif age == 21 or age >= 65:
     print("Here, have a birthday")
-elif not(age==30):
+elif not age == 30:
     print("You don't get a birthday")
 else:
     print("You get a birthday party yeah")
 
-## PART FIVE: END
+# PART FIVE: END
 ########################################################################################################################
-## PART SIX: START
+# PART SIX: START
 
 for x in range(0, 10):
     print(x, ' ', end="")
@@ -159,15 +159,15 @@ print ('\n')
 
 num_list = [[1, 2, 3], [10, 20, 30], [100, 200, 300]]
 
-for x in range(0,3):
-    for y in range(0,3):
+for x in range(0, 3):
+    for y in range(0, 3):
         print(num_list[x][y])
 
 print ('\n'*5)
 
-## PART SIX: END
+# PART SIX: END
 ########################################################################################################################
-## PART SEVEN: START
+# PART SEVEN: START
 
 random_num = random.randrange(0, 100)
 
@@ -191,9 +191,9 @@ while i <= 20:
 
 print('\n' * 5)
 
-## PART SEVEN: END
+# PART SEVEN: END
 ########################################################################################################################
-## PART EIGHT: START
+# PART EIGHT: START
 
 def addNumber(a, b):
     sumNum = a + b
@@ -224,9 +224,9 @@ print(long_string.isalnum())
 
 print(long_string.replace("nigga", "fellow"))
 
-## PART EIGHT: END
+# PART EIGHT: END
 ########################################################################################################################
-## PART NINE: START
+# PART NINE: START
 
 test_file = open("test.txt", "wb")
 
@@ -245,9 +245,9 @@ print(text_in_file)
 
 # os.remove("test.txt")
 
-## PART NINE: END
+# PART NINE: END
 ########################################################################################################################
-## PART TEN: START
+# PART TEN: START
 
 class Animal:
     __name = None
