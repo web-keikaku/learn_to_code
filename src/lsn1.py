@@ -326,3 +326,12 @@ print(cat.toString())
 dog = Dog("Spot", 53, 27, "Ruff", "Ah")
 print(dog.toString())
 dog.multiple_sounds(44)
+
+class AnimalTesting:
+    def get_type(self, animal):
+        animal.get_type()
+
+test_animals = AnimalTesting()
+
+test_animals.get_type(cat)
+test_animals.get_type(dog)
