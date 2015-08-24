@@ -242,3 +242,5 @@ test_file = open("test.txt", "r+")
 text_in_file = test_file.read()
 
 print(text_in_file)
+
+os.remove("test.txt")
