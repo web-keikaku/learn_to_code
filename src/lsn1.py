@@ -296,8 +296,8 @@ class Dog(Animal):
     __owner = ""
 
     def __init__(self, name, height, weight, sound, owner):
-        self.__owner = owner
         super(Dog, self).__init__(name, height, weight, sound)
+        self.__owner = owner
 
     def set_owner(self, owner):
         self.__owner = owner
@@ -314,3 +314,15 @@ class Dog(Animal):
                                                                                       self.__weight,
                                                                                       self.__sound,
                                                                                       self.__owner)
+
+    def multiple_sounds(self, how_many=None):
+        if how_many is None:
+            print(self.get_sound())
+        else:
+            print(self.get_sound() * how_many)
+
+cat = Animal("Cattie", 33, 10, "Meow")
+print(cat.toString())
+dog = Dog("Spot", 53, 27, "Ruff", "Ah")
+print(dog.toString())
+dog.multiple_sounds(44)
