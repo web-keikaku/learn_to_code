@@ -284,3 +284,10 @@ class Animal:
 
     def get_sound(self):
         return self.__sound
+
+    def get_type(self):
+        print("Animal")
+
+    def toString(self):
+        return "{} is {} cm tall and {} kilograms and say {}".format(self.__name, self.__height,
+                                                                     self.__weight, self.__sound)
