@@ -188,3 +188,38 @@ while i <= 20:
         continue
 
     i += 1
+
+print('\n' * 5)
+
+## PART SEVEN: END
+########################################################################################################################
+## PART EIGHT: START
+
+def addNumber(a, b):
+    sumNum = a + b
+    return sumNum
+
+print(addNumber(1, 4))
+
+print("What is your name?")
+
+user_input = sys.stdin.readline()
+
+print("Hello", user_input)
+
+long_string = "I think, therefore I am you silly nigga."
+
+print(long_string[0:7] + ",", long_string[-6:])
+
+print(long_string[:-7] + ".")
+
+print("%c is my %s letter and my number %d is %.5f" % ('X', "favorite", 1, 1.61))
+
+print(long_string.capitalize())
+
+print(long_string.find("nigga"))
+
+print(long_string.isalpha())
+print(long_string.isalnum())
+
+print(long_string.replace("nigga", "fellow"))
