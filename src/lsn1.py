@@ -223,3 +223,22 @@ print(long_string.isalpha())
 print(long_string.isalnum())
 
 print(long_string.replace("nigga", "fellow"))
+
+## PART EIGHT: END
+########################################################################################################################
+## PART NINE: START
+
+test_file = open("test.txt", "wb")
+
+print(test_file.mode)
+print(test_file.name)
+
+test_file.write(bytes("Write something", "UTF-8"))
+
+test_file.close()
+
+test_file = open("test.txt", "r+")
+
+text_in_file = test_file.read()
+
+print(text_in_file)
